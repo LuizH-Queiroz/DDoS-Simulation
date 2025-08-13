@@ -3,7 +3,7 @@ import sys
 import threading
 import time
 
-SERVER_IP = "192.168.0.17"
+SERVER_IP = "157.230.165.36"
 PORT = 5000
 username = "Luiz"
 text = (
@@ -16,8 +16,7 @@ text = (
     "culpa qui officia deserunt mollit anim id est laborum."
 )
 
-NUM_THREADS = 20  # Number of parallel client threads
-
+NUM_THREADS = 15  # Number of parallel client threads
 
 def client_task():
     while True:
